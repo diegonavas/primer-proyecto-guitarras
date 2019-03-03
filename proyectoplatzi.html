@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>invie</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="hojaestilos.css">
+</head>
+<body>
+	
+	
+	<section id="portada" class="portada"> 
+
+		<!-- portada -->
+		<header id="header" class="header">
+		<figure class="logotipo">
+			<img src="imagenes/logo.jpg" width="186" height="60" title="f1">
+		</figure>
+		<nav class="menu">
+			<ul>
+				<li><a href="#">&lowast; home</a></li>
+				<li><a href="#guitarras">&lowast; guitarras</a></li>
+				<li><a href="precios.html">&lowast; precio</a></li>
+			</ul>
+		</nav>
+	</header>
+		<div class="contenedor">
+		<h1 class="titulo">Guittarras Invisibles</h1>
+		<h3 class="title-a">Se la estrella de rock que sienpre quisiste ser</h3>
+		<button class="boton">conoce más</button>	
+		</div>
+	</section>
+	
+	<section id="guitarras" class="guitarras"> <!-- guitarras -->
+		<h2>Nuestras Guitarras</h2>
+		<article class="guitarra">
+			<img class="derecha" src="imagenes/guitarra1.jpg" alt="acustica" title="guitarra acustica" height="140">
+			<h3 class="title-b">Invie Acustica</h3>
+			<ol>
+				<li>Estilo Vintage</li>
+				<li>Madera Pura</li>
+				<li>Incluye estuche invisible</li>
+			</ol>
+		</article>
+		<article class="guitarra">
+			<img class="izquierda" src="imagenes/guitarra2.jpg" alt="Electrica" title="guitarra Electrica" height="140">
+			<div class="electrica">
+				<h3 class="title-b">Invie Electrica</h3>
+				<ol class="ayuda">
+					<li>Estilo vintage</li>
+					<li>Liviana</li>
+					<li>Inicia to camino como rockstar</li>
+				</ol>
+			</div>
+		</article>
+	</section>
+	<footer class="footer">
+		<div class="contenedor">
+		<div class="contacto">
+			<img src="imagenes/logo.jpg" width="280" height="60">
+			<a href="tel:+573123035794"><strong>Telefono</strong><span>3123035794</span></a>
+			<a href="mailto:dieg9928.dn@gmail.com"><strong>E-mail</strong><span>dieg9928.dn@gmail.com</span></a>
+		</div>
+		<form class="formulario">
+			<div class="col1">
+				<label for="nombre">Nombre</label>
+				<input type="text" required id="nombre" name="nombre">
+				<label for="email">E-mail</label>
+				<input type="email" required id="email" name="email">
+			</div>
+			<div class="sexo">
+				<label for="mujer">
+					<input type="radio" id="mujer" name="sexo" value="mujer">mujer
+				</label>
+				<label for="hombre">
+					<input type="radio" id="hombre" name="sexo" value="hombre">hombre
+				</label>
+			</div>
+
+			<div class="intereses">
+				<label for="cotizacion">
+					<input type="checkbox" id="cotizacion" name="intereses" value="cotizacion">Cotizacion
+				</label>
+				<label for="reclamos">
+					<input type="checkbox" id="reclamos" name="intereses" value="reclamos">Reclamos
+				</label>
+				<label for="comentarios">
+					<input type="checkbox" id="comentarios" name="intereses" value="comentarios">Comentarios
+				</label>
+				<label for="otros">
+					<input type="checkbox" id="otros" name="intereses" value="otr">Otros
+				</label>
+			</div>
+			<div class="col2">
+				<label for="comentarios">Comentarios</label>
+				<textarea name="comentarios" id="comentarios" cols="30" rows="7"></textarea>
+				<input type="submit" value="enviar">
+			</div>
+		</form>
+		</div>
+	</footer>
+</body>
+</html>
